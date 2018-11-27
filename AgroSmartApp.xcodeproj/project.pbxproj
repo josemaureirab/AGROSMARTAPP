@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0DC6A5217B7EB2004803DB /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DC6A4217B7EB2004803DB /* PopUpViewController.swift */; };
+		8ED2DB0A2177CC9B00C3E478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2DB092177CC9B00C3E478 /* AppDelegate.swift */; };
+		8ED2DB0C2177CC9B00C3E478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2DB0B2177CC9B00C3E478 /* ViewController.swift */; };
+		8ED2DB0F2177CC9B00C3E478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED2DB0D2177CC9B00C3E478 /* Main.storyboard */; };
+		8ED2DB122177CC9B00C3E478 /* AgroSmartApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2DB102177CC9B00C3E478 /* AgroSmartApp.xcdatamodeld */; };
+		8ED2DB142177CC9D00C3E478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED2DB132177CC9D00C3E478 /* Assets.xcassets */; };
+		8ED2DB172177CC9D00C3E478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED2DB152177CC9D00C3E478 /* LaunchScreen.storyboard */; };
+		8ED2DB222177CC9D00C3E478 /* AgroSmartAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2DB212177CC9D00C3E478 /* AgroSmartAppTests.swift */; };
+		8ED2DB2D2177CC9D00C3E478 /* AgroSmartAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2DB2C2177CC9D00C3E478 /* AgroSmartAppUITests.swift */; };
+		8ED2DB3B2177CDE100C3E478 /* boton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ED2DB3A2177CDE000C3E478 /* boton.png */; };
+		8ED2DB3D2177CEEF00C3E478 /* agronomia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ED2DB3C2177CEEF00C3E478 /* agronomia.jpg */; };
+		8ED2DB3F2178D5EA00C3E478 /* agrodrone-inicio-mapeo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ED2DB3E2178D5EA00C3E478 /* agrodrone-inicio-mapeo2.png */; };
+		8ED2DB432178D89C00C3E478 /* RED_BUTTON.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ED2DB422178D89C00C3E478 /* RED_BUTTON.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ED2DB1E2177CC9D00C3E478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ED2DAFE2177CC9B00C3E478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ED2DB052177CC9B00C3E478;
+			remoteInfo = AgroSmartApp;
+		};
+		8ED2DB292177CC9D00C3E478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ED2DAFE2177CC9B00C3E478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ED2DB052177CC9B00C3E478;
+			remoteInfo = AgroSmartApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E0DC6A4217B7EB2004803DB /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopUpViewController.swift; path = ../../AGROSMARTAPP/AgroSmartApp/PopUpViewController.swift; sourceTree = "<group>"; };
+		8ED2DB062177CC9B00C3E478 /* AgroSmartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgroSmartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED2DB092177CC9B00C3E478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8ED2DB0B2177CC9B00C3E478 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8ED2DB0E2177CC9B00C3E478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ED2DB112177CC9B00C3E478 /* AgroSmartApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AgroSmartApp.xcdatamodel; sourceTree = "<group>"; };
+		8ED2DB132177CC9D00C3E478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ED2DB162177CC9D00C3E478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8ED2DB182177CC9D00C3E478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED2DB1D2177CC9D00C3E478 /* AgroSmartAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgroSmartAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED2DB212177CC9D00C3E478 /* AgroSmartAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgroSmartAppTests.swift; sourceTree = "<group>"; };
+		8ED2DB232177CC9D00C3E478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED2DB282177CC9D00C3E478 /* AgroSmartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgroSmartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED2DB2C2177CC9D00C3E478 /* AgroSmartAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgroSmartAppUITests.swift; sourceTree = "<group>"; };
+		8ED2DB2E2177CC9D00C3E478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED2DB3A2177CDE000C3E478 /* boton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boton.png; path = "../Imágenes/boton.png"; sourceTree = "<group>"; };
+		8ED2DB3C2177CEEF00C3E478 /* agronomia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = agronomia.jpg; path = "../Imágenes/agronomia.jpg"; sourceTree = "<group>"; };
+		8ED2DB3E2178D5EA00C3E478 /* agrodrone-inicio-mapeo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "agrodrone-inicio-mapeo2.png"; path = "../Imágenes/agrodrone-inicio-mapeo2.png"; sourceTree = "<group>"; };
+		8ED2DB422178D89C00C3E478 /* RED_BUTTON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RED_BUTTON.png; path = "../Imágenes/RED_BUTTON.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ED2DB032177CC9B00C3E478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED2DB1A2177CC9D00C3E478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED2DB252177CC9D00C3E478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ED2DAFD2177CC9B00C3E478 = {
+			isa = PBXGroup;
+			children = (
+				8ED2DB082177CC9B00C3E478 /* AgroSmartApp */,
+				8ED2DB202177CC9D00C3E478 /* AgroSmartAppTests */,
+				8ED2DB2B2177CC9D00C3E478 /* AgroSmartAppUITests */,
+				8ED2DB072177CC9B00C3E478 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED2DB072177CC9B00C3E478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ED2DB062177CC9B00C3E478 /* AgroSmartApp.app */,
+				8ED2DB1D2177CC9D00C3E478 /* AgroSmartAppTests.xctest */,
+				8ED2DB282177CC9D00C3E478 /* AgroSmartAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED2DB082177CC9B00C3E478 /* AgroSmartApp */ = {
+			isa = PBXGroup;
+			children = (
+				8ED2DB092177CC9B00C3E478 /* AppDelegate.swift */,
+				8ED2DB0B2177CC9B00C3E478 /* ViewController.swift */,
+				8ED2DB0D2177CC9B00C3E478 /* Main.storyboard */,
+				8ED2DB422178D89C00C3E478 /* RED_BUTTON.png */,
+				8ED2DB3E2178D5EA00C3E478 /* agrodrone-inicio-mapeo2.png */,
+				8ED2DB3C2177CEEF00C3E478 /* agronomia.jpg */,
+				8ED2DB3A2177CDE000C3E478 /* boton.png */,
+				8ED2DB132177CC9D00C3E478 /* Assets.xcassets */,
+				8ED2DB152177CC9D00C3E478 /* LaunchScreen.storyboard */,
+				8ED2DB182177CC9D00C3E478 /* Info.plist */,
+				8ED2DB102177CC9B00C3E478 /* AgroSmartApp.xcdatamodeld */,
+				8E0DC6A4217B7EB2004803DB /* PopUpViewController.swift */,
+			);
+			path = AgroSmartApp;
+			sourceTree = "<group>";
+		};
+		8ED2DB202177CC9D00C3E478 /* AgroSmartAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8ED2DB212177CC9D00C3E478 /* AgroSmartAppTests.swift */,
+				8ED2DB232177CC9D00C3E478 /* Info.plist */,
+			);
+			path = AgroSmartAppTests;
+			sourceTree = "<group>";
+		};
+		8ED2DB2B2177CC9D00C3E478 /* AgroSmartAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8ED2DB2C2177CC9D00C3E478 /* AgroSmartAppUITests.swift */,
+				8ED2DB2E2177CC9D00C3E478 /* Info.plist */,
+			);
+			path = AgroSmartAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ED2DB052177CC9B00C3E478 /* AgroSmartApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED2DB312177CC9D00C3E478 /* Build configuration list for PBXNativeTarget "AgroSmartApp" */;
+			buildPhases = (
+				8ED2DB022177CC9B00C3E478 /* Sources */,
+				8ED2DB032177CC9B00C3E478 /* Frameworks */,
+				8ED2DB042177CC9B00C3E478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgroSmartApp;
+			productName = AgroSmartApp;
+			productReference = 8ED2DB062177CC9B00C3E478 /* AgroSmartApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ED2DB1C2177CC9D00C3E478 /* AgroSmartAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED2DB342177CC9D00C3E478 /* Build configuration list for PBXNativeTarget "AgroSmartAppTests" */;
+			buildPhases = (
+				8ED2DB192177CC9D00C3E478 /* Sources */,
+				8ED2DB1A2177CC9D00C3E478 /* Frameworks */,
+				8ED2DB1B2177CC9D00C3E478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ED2DB1F2177CC9D00C3E478 /* PBXTargetDependency */,
+			);
+			name = AgroSmartAppTests;
+			productName = AgroSmartAppTests;
+			productReference = 8ED2DB1D2177CC9D00C3E478 /* AgroSmartAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8ED2DB272177CC9D00C3E478 /* AgroSmartAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED2DB372177CC9D00C3E478 /* Build configuration list for PBXNativeTarget "AgroSmartAppUITests" */;
+			buildPhases = (
+				8ED2DB242177CC9D00C3E478 /* Sources */,
+				8ED2DB252177CC9D00C3E478 /* Frameworks */,
+				8ED2DB262177CC9D00C3E478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ED2DB2A2177CC9D00C3E478 /* PBXTargetDependency */,
+			);
+			name = AgroSmartAppUITests;
+			productName = AgroSmartAppUITests;
+			productReference = 8ED2DB282177CC9D00C3E478 /* AgroSmartAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ED2DAFE2177CC9B00C3E478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Jose Maureira Badilla";
+				TargetAttributes = {
+					8ED2DB052177CC9B00C3E478 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8ED2DB1C2177CC9D00C3E478 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8ED2DB052177CC9B00C3E478;
+					};
+					8ED2DB272177CC9D00C3E478 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8ED2DB052177CC9B00C3E478;
+					};
+				};
+			};
+			buildConfigurationList = 8ED2DB012177CC9B00C3E478 /* Build configuration list for PBXProject "AgroSmartApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ED2DAFD2177CC9B00C3E478;
+			productRefGroup = 8ED2DB072177CC9B00C3E478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ED2DB052177CC9B00C3E478 /* AgroSmartApp */,
+				8ED2DB1C2177CC9D00C3E478 /* AgroSmartAppTests */,
+				8ED2DB272177CC9D00C3E478 /* AgroSmartAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ED2DB042177CC9B00C3E478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED2DB3F2178D5EA00C3E478 /* agrodrone-inicio-mapeo2.png in Resources */,
+				8ED2DB172177CC9D00C3E478 /* LaunchScreen.storyboard in Resources */,
+				8ED2DB3D2177CEEF00C3E478 /* agronomia.jpg in Resources */,
+				8ED2DB142177CC9D00C3E478 /* Assets.xcassets in Resources */,
+				8ED2DB3B2177CDE100C3E478 /* boton.png in Resources */,
+				8ED2DB0F2177CC9B00C3E478 /* Main.storyboard in Resources */,
+				8ED2DB432178D89C00C3E478 /* RED_BUTTON.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED2DB1B2177CC9D00C3E478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED2DB262177CC9D00C3E478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ED2DB022177CC9B00C3E478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0DC6A5217B7EB2004803DB /* PopUpViewController.swift in Sources */,
+				8ED2DB0C2177CC9B00C3E478 /* ViewController.swift in Sources */,
+				8ED2DB122177CC9B00C3E478 /* AgroSmartApp.xcdatamodeld in Sources */,
+				8ED2DB0A2177CC9B00C3E478 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED2DB192177CC9D00C3E478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED2DB222177CC9D00C3E478 /* AgroSmartAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED2DB242177CC9D00C3E478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED2DB2D2177CC9D00C3E478 /* AgroSmartAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ED2DB1F2177CC9D00C3E478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ED2DB052177CC9B00C3E478 /* AgroSmartApp */;
+			targetProxy = 8ED2DB1E2177CC9D00C3E478 /* PBXContainerItemProxy */;
+		};
+		8ED2DB2A2177CC9D00C3E478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ED2DB052177CC9B00C3E478 /* AgroSmartApp */;
+			targetProxy = 8ED2DB292177CC9D00C3E478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8ED2DB0D2177CC9B00C3E478 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED2DB0E2177CC9B00C3E478 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8ED2DB152177CC9D00C3E478 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED2DB162177CC9D00C3E478 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ED2DB2F2177CC9D00C3E478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8ED2DB302177CC9D00C3E478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ED2DB322177CC9D00C3E478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgroSmartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josemaureira.AgroSmartApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ED2DB332177CC9D00C3E478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgroSmartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josemaureira.AgroSmartApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8ED2DB352177CC9D00C3E478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgroSmartAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josemaureira.AgroSmartAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgroSmartApp.app/AgroSmartApp";
+			};
+			name = Debug;
+		};
+		8ED2DB362177CC9D00C3E478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgroSmartAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josemaureira.AgroSmartAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgroSmartApp.app/AgroSmartApp";
+			};
+			name = Release;
+		};
+		8ED2DB382177CC9D00C3E478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgroSmartAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josemaureira.AgroSmartAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgroSmartApp;
+			};
+			name = Debug;
+		};
+		8ED2DB392177CC9D00C3E478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgroSmartAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josemaureira.AgroSmartAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgroSmartApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ED2DB012177CC9B00C3E478 /* Build configuration list for PBXProject "AgroSmartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED2DB2F2177CC9D00C3E478 /* Debug */,
+				8ED2DB302177CC9D00C3E478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED2DB312177CC9D00C3E478 /* Build configuration list for PBXNativeTarget "AgroSmartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED2DB322177CC9D00C3E478 /* Debug */,
+				8ED2DB332177CC9D00C3E478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED2DB342177CC9D00C3E478 /* Build configuration list for PBXNativeTarget "AgroSmartAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED2DB352177CC9D00C3E478 /* Debug */,
+				8ED2DB362177CC9D00C3E478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED2DB372177CC9D00C3E478 /* Build configuration list for PBXNativeTarget "AgroSmartAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED2DB382177CC9D00C3E478 /* Debug */,
+				8ED2DB392177CC9D00C3E478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8ED2DB102177CC9B00C3E478 /* AgroSmartApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8ED2DB112177CC9B00C3E478 /* AgroSmartApp.xcdatamodel */,
+			);
+			currentVersion = 8ED2DB112177CC9B00C3E478 /* AgroSmartApp.xcdatamodel */;
+			path = AgroSmartApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8ED2DAFE2177CC9B00C3E478 /* Project object */;
+}
